@@ -1,0 +1,6 @@
+fno_field_prediction/data/__pycache__/
+fno_field_prediction/models/__pycache__/
+fno_field_prediction/__pycache__/
+*_logs/
+*.log
+.ipynb_checkpoints/
