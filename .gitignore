@@ -4,3 +4,4 @@ fno_field_prediction/__pycache__/
 *_logs/
 *.log
 .ipynb_checkpoints/
+.vscode/

@@ -5,7 +5,7 @@ from pathlib import Path
 # import pytorch_lightning as pl
 # from lightning_fabric.utilities.seed import seed_everything
 from easydict import EasyDict as edict
-from pytorch_lightning.callbacks import LearningRateMonitor, ModelCheckpoint
+# from pytorch_lightning.callbacks import LearningRateMonitor, ModelCheckpoint
 import torch
 
 from fno_field_prediction.data import BlobData
@@ -62,7 +62,7 @@ deco = model.decoder
 deco
 
 
-z = torch.rand(2048)
+z = torch.rand(4,2048)
 
 # breakpoint()
 print(deco(z))
